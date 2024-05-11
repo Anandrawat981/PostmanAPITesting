@@ -1,0 +1,26 @@
+API TESTING:
+get-200
+post-201
+delete-204
+What is Environment :
+An environmnet is set of variables or key value pairs which we can use for our request.
+
+We can have multiple environment depends on our requirement and eaxh environment can have different key value pair.
+1.local scope - Env 
+2.Global scope - Independent of ENV
+3. Same Variable globle, env - Preference will go for local/
+
+What is Workflow in Postman
+which request will run in which flow
+postman.setNextRequest() -- this is deprecated func
+pm.execution.setNextRequest() -- this is active function now
+ 
+debugg and logs
+console.log()
+console.info()
+console.warn()
+console.error()
+
+####Pre-request script
+
+Pre-request script -> Request -> response -> Test Script
